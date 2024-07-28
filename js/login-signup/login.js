@@ -25,7 +25,7 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
       if (role === 'worker') {
         window.location.href = 'cv.html';  
       } else {
-        window.location.href = 'dashboard.html'; 
+        window.location.href = 'desktophomepage.html'; 
       }
     } catch (error) {
       console.error('Error:', error);
