@@ -42,7 +42,7 @@ document.getElementById('registerForm').addEventListener('submit', async functio
             alert('Error: ' + errorData.error);
         }
     } catch (error) {
-        console.error('Error:', error);
+        console.error('Error:', error.message);
         alert('An error occurred during registration');
     }
 });
