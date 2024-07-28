@@ -1,5 +1,5 @@
 export function fetchJobs() {
-    fetch('http://localhost:3000/api/all-jobs')
+    fetch('https://onlybackend-wgcr.onrender.com/api/all-jobs')
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');
